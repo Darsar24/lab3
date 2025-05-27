@@ -1,42 +1,50 @@
 # Miscellaneous
-*.class
 *.log
 *.pyc
 *.swp
+*.swo
+*.tmp
 .DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
+Icon?
+ehthumbs.db
+Thumbs.db
 
-# IntelliJ related
+# IntelliJ / Android Studio / VS Code
+.idea/
+.vscode/
 *.iml
 *.ipr
 *.iws
-.idea/
-
-# VS Code (опционально, если не хочешь отправлять настройки VS Code)
-#.vscode/
+.settings/
 
 # Flutter/Dart/Pub related
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
-.pub-cache/
 .pub/
 /build/
-**/doc/api/
-**/ios/Flutter/.last_build_id
+
+# iOS-related files
+/ios/*.xcodeproj/xcuserdata
+/ios/DerivedData/
+/ios/Flutter/.last_build_id
+/ios/Pods/
+/ios/Runner.xcworkspace/contents.xcworkspacedata
+
+# Android-specific
+/android/app/src/main/assets/
+/android/app/src/main/res/
+/android/app/debug
+/android/app/profile
+/android/app/release
 
 # Symbolication and obfuscation
 app.*.symbols
 app.*.map.json
 
-# Android artifacts
-/android/app/debug
-/android/app/profile
-/android/app/release
-
+/android/
+/ios/
+/linux/
+/macos/
+/web/
+/windows/
